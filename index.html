@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TodoList</title>
+
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="m-5">
+    <header class="mb-3">
+      <h4>My Todo</h4>
+      <div class="form-inline">
+        <input type="text" placeholder="add item" id="newTodo" class="form-control mr-2">
+        <button id="addBtn" class="btn btn-info">Add</button>
+        <button id="delBtn" class="btn btn-info">Delete</button>
+      </div>
+    </header>
+    <div class="work-list">
+      <h4><input type="checkbox" name="vehicle1" value="check" class="todoCheckedAll">Todo</h4>
+      <ul id="my-todo" class="list-unstyled">
+        <!-- display todos here -->
+      </ul>
+
+      <h4><input type="checkbox" name="vehicle1" value="check" class="doneCheckedAll">Done</h4>
+      <ul id="my-done" class="list-unstyled">
+        <!-- display todos here -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
